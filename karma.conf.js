@@ -32,7 +32,8 @@ module.exports = function(config) {
     },
 
     browserify: {
-      debug: true
+      debug: true,
+      plugin: ['proxyquireify/plugin']
     },
 
 
