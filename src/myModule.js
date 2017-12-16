@@ -1,3 +1,3 @@
 module.exports.passMessage = function() {
-  return "myModule mesage";
+  return 'myModule mesage';
 }
