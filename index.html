@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>browserify-drill</title>
+    <script type="text/javascript" src="./dest/main.bundle.js"></script>
+  </head>
+  <body>
+    <h1>browserify-drill</h1>
+    <div id="msg"></div>
+    <script type="text/javascript">
+      (function() {
+        var main = require('main');
+        var msg = document.querySelector('#msg');
+        msg.innerHTML = main.passMessage();
+      }());
+    </script>
+  </body>
+</html>
