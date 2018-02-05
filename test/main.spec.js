@@ -1,5 +1,5 @@
 var assert = require('assert');
-var proxyquire = require('proxyquireify')(require);
+var proxyquire = require('proxyquireify-es3')(require);
 
 var stubs = {
   './myModule.js': {

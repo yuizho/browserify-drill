@@ -19,6 +19,7 @@
     "karma-nyan-reporter": "^0.2.5",
     "mocha": "^4.0.1",
     "proxyquireify": "^3.2.1",
+    "proxyquireify-es3": "^1.2.3",
     "watchify": "^3.9.0"
   }
 }
